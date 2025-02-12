@@ -185,6 +185,7 @@
  
 .hero-text1 {
   text-align: center;
+  color: var(--dl-color-theme-primary1);
 }
  
 .hero-text2 {
@@ -568,8 +569,8 @@
 }
  
 .cta-container2:hover {
-  color: var(--dl-color-theme-neutral-light);
-  background-color: var(--dl-color-theme-primary3);
+  color: var(--dl-color-theme-primary1);
+  background-color: var(--dl-color-theme-neutral-light);
 }
  
 .cta-content {
@@ -4403,7 +4404,7 @@
 }
  
 .gallery3-container1 {
-  gap: var(--dl-space-space-oneandhalfunits);
+  gap: var(--dl-space-space-halfunit);
   width: 100%;
 }
  
