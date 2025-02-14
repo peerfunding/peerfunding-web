@@ -14,6 +14,7 @@
     --dl-color-theme-primary1: #123295ff;
     --dl-color-theme-primary2: #698a93;
     --dl-color-theme-primary3: #0C73F6;
+    --dl-color-theme-primary4: #FF0000;
     --dl-space-space-halfunit: 8px;
     --dl-space-space-sixunits: 96px;
     --dl-space-space-twounits: 32px;
@@ -363,6 +364,12 @@
 .thq-icon-small {
     width: 24px;
     height: 24px;
+}
+.thq-icon-small-color {
+    fill: var(--dl-color-theme-primary3);
+}
+.thq-icon-small-color-red {
+    fill: var(--dl-color-theme-primary4);
 }
 
 .thq-button-icon {
