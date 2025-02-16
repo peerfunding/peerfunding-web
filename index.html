@@ -1082,7 +1082,7 @@
                                             <span>Pay-Per-Use plan</span>
                                         </p>
                                         <h3 class="pricing-text25 thq-heading-3">
-                                            <span>₦500/use</span>
+                                            <span>₦750/use</span>
                                         </h3>
                                     </div>
                                     <div class="pricing-list2">
@@ -1118,7 +1118,7 @@
                                                 <path d="M384 690l452-452 60 60-512 512-238-238 60-60z"></path>
                                             </svg>
                                             <span class="thq-body-small">
-                                                <span>Participation requests - Unlimited</span>
+                                                <span>Participation requests - Unlimited/Month</span>
                                             </span>
                                         </div>
                                         <div class="pricing-list-item12">
@@ -2116,7 +2116,6 @@
                         email: $("#contact-form-3-email").val(),
                         message: $("#contact-form-3-message").val(),
                     };
-                    alert(JSON.stringify(formData));
                     $.ajax({
                         url: "http://192.168.1.77:8181/v1/auth/guests/contact-us",
                         type: "POST",
