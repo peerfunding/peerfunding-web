@@ -5278,6 +5278,28 @@
   padding-left: 8em;
   padding-right: 8em;
 }
+
+@media(max-width: 991px) {
+  .home-container {
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+}
+
+@media(max-width: 767px) {
+  .home-container {
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+}
+
+@media(max-width: 479px) {
+  .home-container {
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+}
+
  
 .home-fragment100 {
   display: contents;
